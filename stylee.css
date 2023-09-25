@@ -1,0 +1,60 @@
+/* Custom CSS for Space Exploration Images Page */
+
+
+/* Header Styles */
+
+header {
+    background-image: url('space_wallpaper.jpg');
+    /* Replace with your header image */
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+
+
+/* Button Styles */
+
+.btn-primary {
+    background-color: transparent;
+    border-color: #011e3d;
+}
+
+.jumbotron {
+    background-image: url('space_wallpaper.jpg');
+    background-size: cover;
+}
+
+
+/* Image Gallery Styles */
+
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+/* Footer Styles */
+
+footer {
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+/* Media Query for Smaller Screens */
+
+@media (max-width: 768px) {
+    header {
+        padding: 50px 0;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+    footer {
+        padding: 10px 0;
+    }
+}

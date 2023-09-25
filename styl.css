@@ -1,0 +1,85 @@
+/* Custom CSS for Space Exploration Website */
+
+
+/* Header Styles */
+
+header {
+    background-image: url('space_wallpaper.jpg');
+    /* Replace with your header image */
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: black;
+    font-size: medium;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: black;
+}
+
+
+/* Jumbotron Styles */
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Button Styles */
+
+.btn-primary {
+    background-color: transparent;
+    border-color: #7c54d1;
+}
+
+.btn-outline-primary {
+    color: #7c54d1;
+    border-color: #7c54d1;
+}
+
+
+/* Content Section Styles */
+
+.container {
+    padding: 40px 0;
+}
+
+
+/* Footer Styles */
+
+footer {
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+/* Media Query for Smaller Screens */
+
+@media (max-width: 768px) {
+    header {
+        padding: 50px 0;
+    }
+    .jumbotron {
+        padding: 50px 0;
+    }
+    .container {
+        padding: 20px 0;
+    }
+    footer {
+        padding: 10px 0;
+    }
+}
